@@ -25,7 +25,7 @@ let nextPage = 1
 const beersSection = document.querySelector('#beers')
 
 const getBeers = async () => {
-  url = `https://api.punkapi.com/v2/beers?page=${nextPage}&per_page=80`
+  url = `https://api.punkapi.com/v2/beers?page=${nextPage}&per_page=25`
 
   const res = await fetch(url)
   const data = await res.json()
