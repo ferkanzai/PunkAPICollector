@@ -11,6 +11,7 @@ body {
   margin: 0px;
   background-color: var(--bg-color);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-anchor: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,7 +28,6 @@ body {
 
   #main {
     padding-top: 2.5rem;
-    overflow-anchor: none;
     text-align: center;
     display: flex;
     justify-content: center;
