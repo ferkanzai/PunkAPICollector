@@ -39,7 +39,7 @@ const getBeers = async () => {
     tagline: el.tagline,
     brewed_since: el.first_brewed,
     description: el.description,
-    image: el.image_url ? el.image_url : 'assets/no-beer.png,
+    image: el.image_url ? el.image_url : 'assets/no-beer.png',
     abv: el.abv,
     ibu: el.ibu,
     food_pairing: el.food_pairing,
